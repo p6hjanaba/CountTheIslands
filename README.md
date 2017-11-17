@@ -3,6 +3,8 @@
 #### Assignment:
 Generate a 2D matrix with random 0's and 1's where 0 presents water and 1 presents land. Hence the title "count the islands". First trying with small tabels that can actually be checked if they are correct. Then generating bigger tables.
 
+**Please find the code under src/matrix folder.**
+
 Here are some steps how i worked on the assignment:
 1. Generated 2D matrix (only zeros);
 2. Assigned random 0 and 1 numbers to matrix;
