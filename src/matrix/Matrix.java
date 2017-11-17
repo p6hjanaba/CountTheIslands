@@ -115,9 +115,9 @@ public class Matrix {
 	
 	// Helping function that checks if given position in array has been visited or not
 	// returns only values that are not visited and number 1 (true or false)
-    static boolean safePos(int M[][], int row, int col, boolean visited[][]) {
-        return (row >= 0) && (row < rows) &&
-               (col >= 0) && (col < columns) &&
-               (M[row][col]==1 && !visited[row][col]);
-    }
+	static boolean safePos(int M[][], int row, int col, boolean visited[][]) {
+		return (row >= 0) && (row < rows) &&
+			(col >= 0) && (col < columns) &&
+			(M[row][col]==1 && !visited[row][col]);
+	}
 }
